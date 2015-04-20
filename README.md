@@ -1,3 +1,4 @@
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 [![Stories in Ready](https://badge.waffle.io/PolicyStat/mde.png?label=ready&title=Ready)](https://waffle.io/PolicyStat/mde)
 # mde
 
