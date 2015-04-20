@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/PolicyStat/mde.png?label=ready&title=Ready)](https://waffle.io/PolicyStat/mde)
 # mde
 
 A modern document editor for the web
