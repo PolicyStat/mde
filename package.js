@@ -9,6 +9,7 @@ p.githubRepo('PolicyStat/mde')
 p.author = mightyiam.person
 
 p.devDependencies = {
+  'verb-cli': '^0.6.2',
   standard: '*',
   'auto-package': '^1.0.0',
   policystat: '^1.3.0',
@@ -29,7 +30,11 @@ p.contributors = [
 
 p.scripts = {
   lint: 'standard',
-  test: 'npm run lint'
+  'build-doc': 'verb',
+  test: [
+    'npm run lint',
+    'npm run build-doc'
+  ].join(' && ')
 }
 
 p.copyright = policystat.copyrightNotice
