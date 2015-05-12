@@ -9,6 +9,8 @@ p.githubRepo('PolicyStat/mde')
 p.author = mightyiam.person
 
 p.devDependencies = {
+  verb: '^0.8.0',
+  'verb-cli': '^0.6.2',
   standard: '*',
   'auto-package': '^1.0.0',
   policystat: '^1.3.0',
