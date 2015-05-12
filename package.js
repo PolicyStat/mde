@@ -9,6 +9,7 @@ p.githubRepo('PolicyStat/mde')
 p.author = mightyiam.person
 
 p.devDependencies = {
+  standard: '*',
   'auto-package': '^1.0.0',
   policystat: '^1.3.0',
   mightyiam: '^1.2.0'
@@ -17,7 +18,7 @@ p.devDependencies = {
 p.keywords = [
   'web',
   'document',
-  'editor',
+  'editor'
 ]
 
 p.license = policystat.openSource.license.pretty
@@ -27,4 +28,6 @@ p.contributors = [
 ]
 
 p.scripts = {
+  lint: 'standard',
+  test: 'npm run lint'
 }
