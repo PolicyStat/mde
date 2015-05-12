@@ -31,5 +31,11 @@ p.contributors = [
 
 p.scripts = {
   lint: 'standard',
-  test: 'npm run lint'
+  'build-doc': 'verb',
+  test: [
+    'npm run lint',
+    'npm run build-doc'
+  ].join(' && ')
 }
+
+p.copyright = policystat.copyrightNotice
