@@ -31,3 +31,5 @@ p.scripts = {
   lint: 'standard',
   test: 'npm run lint'
 }
+
+p.copyright = policystat.copyrightNotice
